@@ -1,0 +1,56 @@
+mat-toolbar{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+#tool-logo{
+  margin-right: 10px;
+}
+
+.userl{
+  display: grid;
+  direction: ltr;
+  grid-template: "a b" 1fr / 400px 1fr;
+}
+
+.userr{
+  display: grid;
+  direction: rtl;
+  grid-template: "a b" 1fr / 400px 1fr;
+}
+
+.profile{
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  display: inline;
+}
+
+a{
+  color: rgb(40, 40, 40);
+}
+a:visited{
+  color: rgb(40, 40, 40);
+}
+
+video{
+  height: 500px;
+  display: flex;
+  margin: auto auto;
+}
+
+#assignments{
+  max-width: 100%;
+  display: grid;
+  grid-template: "a a" 1fr
+                 "b c"/ 50% 50%;
+}
+
+#assignments>mat-card{
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 100%;
+}

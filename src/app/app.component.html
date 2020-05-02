@@ -1,0 +1,109 @@
+<mat-toolbar color='accent'>
+  <img id='tool-logo' style='height: 40px;' src="assets/icon.png">
+  <h3>Data Guardian Project Page</h3>
+</mat-toolbar>
+
+<mat-tab-group>
+
+  <mat-tab label="Group Members">
+    <mat-card>
+      <h1>Group Members</h1>
+      <mat-card class='userl'>
+        <img class='profile' src="assets/matt.jpeg">
+        <div>
+          <h1 style='margin-bottom: 0px;'> Matt Gilmore </h1>
+          <h4 style='margin-top: 0px;'>
+            <a href='mailto:mtgilmore@gwu.edu'>mtgilmore@gwu.edu</a>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget. Mauris ultrices eros in cursus turpis. Suspendisse sed nisi lacus sed viverra tellus in hac. Fames ac turpis egestas integer eget aliquet. Auctor urna nunc id cursus metus aliquam. Non tellus orci ac auctor augue mauris augue neque gravida. Tristique senectus et netus et malesuada fames ac. Massa tincidunt dui ut ornare lectus sit amet est placerat. Malesuada fames ac turpis egestas integer eget. Netus et malesuada fames ac turpis egestas. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Iaculis nunc sed augue lacus viverra.
+          </p>
+        </div>
+      </mat-card>
+
+      <mat-card class='userr'>
+        <img class='profile' src="assets/daniel.JPG">
+        <div>
+          <h1 style='margin-bottom: 0px;'> Daniel Marley </h1>
+          <h4 style='margin-top: 0px;'>
+            <a href='mailto:danielmarley@gwu.edu'>danielmarley@gwu.edu</a>
+          </h4>
+          <p style='direction: ltr !important; text-align: right;'>
+            21 year old Philadelphia native, heading to work for Lockheed Martin Space post-graduation. Within the topic of Computer Science, I'm primarily interested in the topics of web development and machine learning/AI; outside of academics, my hobbies and passions include musical theater, politics, reading, and sustainability.
+            In terms of goals for the furture, within the next 5 years I plan to get my Master's degree in CS and enter the rotational program for Lockheed. From there, who knows, lots to still learn and figure out.
+          </p>
+        </div>
+      </mat-card>
+
+      <mat-card class='userl'>
+        <img class='profile' src="assets/jon.jpeg">
+        <div>
+          <h1 style='margin-bottom: 0px;'> Jon Minkin </h1>
+          <h4 style='margin-top: 0px;'>
+            <a href='mailto:minkinj@gwu.edu'>minkinj@gwu.edu</a>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel fringilla est ullamcorper eget. Mauris ultrices eros in cursus turpis. Suspendisse sed nisi lacus sed viverra tellus in hac. Fames ac turpis egestas integer eget aliquet. Auctor urna nunc id cursus metus aliquam. Non tellus orci ac auctor augue mauris augue neque gravida. Tristique senectus et netus et malesuada fames ac. Massa tincidunt dui ut ornare lectus sit amet est placerat. Malesuada fames ac turpis egestas integer eget. Netus et malesuada fames ac turpis egestas. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Iaculis nunc sed augue lacus viverra.
+          </p>
+        </div>
+      </mat-card>
+    </mat-card>
+   </mat-tab>
+
+  <mat-tab label="Screencast">
+    <mat-card>
+      <h1>Project Screencast</h1>
+      <mat-card>
+        <video src="assets/demo.mp4" controls>
+        </video>
+      </mat-card>
+    </mat-card>
+  </mat-tab>
+
+  <mat-tab label="Assignments">
+    <mat-card id='assignments'>
+      <h1 style='grid-area: a;'> Assignment Links </h1>
+      <mat-card style='grid-area: b;'>
+        <h2> Fall 2019 </h2>
+        <mat-action-list>
+          <a href='/assets/writingassignments/Writing-1 Daniel Marley.docx' download>
+            <button mat-list-item>
+              Daniel Marley Writing 1 <mat-icon style='position: absolute; right: 15px;'>get_app</mat-icon>
+            </button>
+          </a>
+          <a href='/assets/writingassignments/Daniel Marley Writing 1 Revised.docx' download>
+            <button mat-list-item>
+              Daniel Marley Revised Writing 1 <mat-icon style='position: absolute; right: 15px;'>get_app</mat-icon>
+            </button>
+          </a>
+          <a href='/assets/writingassignments/Writing 2.docx' download>
+            <button mat-list-item>
+              Writing 2 <mat-icon style='position: absolute; right: 15px;'>get_app</mat-icon>
+            </button>
+          </a>
+          <a href='/assets/writingassignments/Writing-3.docx' download>
+            <button mat-list-item>
+              Writing 3 <mat-icon style='position: absolute; right: 15px;'>get_app</mat-icon>
+            </button>
+          </a>
+        </mat-action-list>
+      </mat-card>
+
+      <mat-card style='grid-area: c;'>
+        <h2> Spring 2020 </h2>
+        <mat-action-list>
+          <a href='/assets/writingassignments/Writing-3-Revised.docx' download>
+            <button mat-list-item>
+              Writing 3 Revised <mat-icon style='position: absolute; right: 15px;'>get_app</mat-icon>
+            </button>
+          </a>
+          <a href='/assets/matt.jpeg' download>
+            <button mat-list-item>
+              The Final Report<mat-icon style='position: absolute; right: 15px;'>get_app</mat-icon>
+            </button>
+          </a>
+        </mat-action-list>
+      </mat-card>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>
