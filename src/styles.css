@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
+mat-toolbar{ background-color: #005A81 !important;}
+
+h3>a:hover {
+    color: #2FB8F2 !important;
+}
+
+h3>a {
+    color: #CBB18B !important;
+    text-decoration: none !important;
+}
+
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
